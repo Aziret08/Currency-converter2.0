@@ -1,0 +1,149 @@
+/* ===== RESET ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, system-ui, sans-serif;
+}
+
+/* ===== BACKGROUND ===== */
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #f5f5f5;
+  color: #1f2937;
+}
+
+/* ===== CARD ===== */
+.app {
+  width: 380px;
+  max-width: 95%;
+  padding: 24px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow:
+    0 4px 6px rgba(0,0,0,0.08),
+    0 10px 24px rgba(0,0,0,0.12);
+}
+
+/* ===== TITLE ===== */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #1976d2;
+}
+
+/* ===== FORM ===== */
+.row {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.row.inline {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+label {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* ===== INPUTS ===== */
+input,
+select {
+  padding: 10px 12px;
+  border-radius: 4px;
+  border: none;
+  border-bottom: 2px solid #cbd5e1;
+  background: transparent;
+  font-size: 14px;
+  outline: none;
+}
+
+input:focus,
+select:focus {
+  border-bottom-color: #1976d2;
+}
+
+/* ===== SWAP ===== */
+#swap {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: #e3f2fd;
+  color: #1976d2;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#swap:hover {
+  background: #bbdefb;
+}
+
+/* ===== BUTTON ===== */
+.btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border-radius: 4px;
+  border: none;
+  background: #1976d2;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #1565c0;
+}
+
+/* ===== RESULT ===== */
+.result {
+  margin-top: 18px;
+  padding: 12px;
+  background: #f1f5f9;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* ===== RATE INFO ===== */
+.rate-info {
+  margin-top: 6px;
+  text-align: center;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* ===== ERROR ===== */
+.error {
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 6px;
+  background: #fdecea;
+  color: #b91c1c;
+  font-size: 13px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 11px;
+  color: #9ca3af;
+}
